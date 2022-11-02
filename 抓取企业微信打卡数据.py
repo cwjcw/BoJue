@@ -7,10 +7,10 @@ app = xw.App(visible=False,add_book=False)
 wb = app.books.open(r'C:\Users\Administrator\Desktop\出勤表.xlsx')
 sht = wb.sheets[0]
 
-emp_id = ['U17330','U09928','U07338','U15303','U02835','U00364','U10670','U00011','U02073','U14228']
+emp_id = ['123','345']
 
 headers = {
-   'Open-Authorization': '4VzqOE93a8ZeLvFcrATsRf2YuZThrVJempx1xTNY',
+   'Open-Authorization': 'secret',
    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE',
    'Content-Type': 'application/json'
 }
