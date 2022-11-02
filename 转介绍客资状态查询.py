@@ -7,8 +7,8 @@ t1 = time.time()
 
 def get_data():
     # 连接数据库
-    conn = sql.connect(server='192.168.30.61',user='bojueinner',
-                       password='BoJue*!inner.2022', database='PLL_ERP_Co_01'
+    conn = sql.connect(server='127.0.0.1',user='user',
+                       password='password', database='DB'
                        )
 
     # 定义游标
